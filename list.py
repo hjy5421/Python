@@ -14,6 +14,7 @@ print(list2)
 
 '''
 리스트 인덱스 keypoint : 음수 인덱스 가능
+리스트 원소 추가 : append
 '''
 #print(list2[4]) -> 오류
 print(list2[-1])
@@ -41,7 +42,7 @@ if n in list3:
 
 
 '''
-리스트 원소 삭제
+리스트 원소 삭제 : remove(값), pop(인덱스)
 '''
 list4=list2+list3
 del(list4[12])
